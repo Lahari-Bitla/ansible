@@ -1,2 +1,2 @@
 [dev]
-172.31.29.127 ansible_connection=ssh ansible_user=ec2-user
+node1 ansible_host=172.31.29.127 ansible_connection=ssh ansible_user=ec2-user
