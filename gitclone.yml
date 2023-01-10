@@ -1,6 +1,7 @@
 ---
- - hosts: all
-   user: root
+ - name: repo clone
+   hosts: all
+   become: yes
    tasks:
    - name: Clone a github repository
      git:
