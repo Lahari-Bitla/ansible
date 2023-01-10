@@ -3,7 +3,7 @@
    become: yes
    tasks:
      - name: Install git, Maven
-       ansible.builtin.yum:
+       yum:
          name: "{{ packages }}"
          state: present
          update_cache: yes
