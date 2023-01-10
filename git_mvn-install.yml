@@ -7,7 +7,6 @@
          name: "{{ packages }}"
          state: present
          update_cache: yes
-         ignore_errors: yes
        vars:
          packages:
            - maven
