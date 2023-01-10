@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - name: docker install
    become: yes
    tasks:
     - name: Install docker
@@ -11,4 +11,3 @@
         name: docker
         state: started
         enabled: yes
-        ignore_errors: yes
