@@ -8,3 +8,4 @@
        dest: /test
        clone: yes
        update: yes
+       ignore_errors: yes
