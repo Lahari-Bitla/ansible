@@ -6,7 +6,6 @@
       yum:
         name: docker
         state: present
-        ignore_errors: yes
     - name: start docker
       service:
         name: docker
